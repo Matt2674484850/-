@@ -1,0 +1,145 @@
+<RCC>
+  <qresource prefix="png">
+    <file>图片文件夹/5.png</file>
+    <file>图片文件夹/加载省略号.gif</file>
+    <file>图片文件夹/等待.png</file>
+    <file>图片文件夹/加载动画.gif</file>
+    <file>图片文件夹/首页图标.png</file>
+    <file>图片文件夹/作者图标.png</file>
+    <file>图片文件夹/管理者图标.png</file>
+  </qresource>
+  <qresource prefix="化学">
+    <file>图片文件夹/化学基础_下一题.png</file>
+    <file>图片文件夹/化学基础知识_准备.png</file>
+    <file>图片文件夹/化学基础知识帮助.png</file>
+    <file>图片文件夹/化学基础知识.png</file>
+  </qresource>
+  <qresource prefix="生物">
+    <file>图片文件夹/生物_点击触发.png</file>
+    <file>图片文件夹/生物_绿叶.png</file>
+    <file>图片文件夹/生物_评价.png</file>
+    <file>图片文件夹/生物_疑问 .png</file>
+    <file>图片文件夹/生物_苹果.png</file>
+  </qresource>
+  <qresource prefix="开锁">
+    <file>图片文件夹/开锁-开始游戏.png</file>
+    <file>图片文件夹/开锁-离开.png</file>
+    <file>图片文件夹/开锁-疑问.png</file>
+    <file>图片文件夹/开锁背景.jpeg</file>
+    <file>图片文件夹/开锁.png</file>
+  </qresource>
+  <qresource prefix="管理者">
+    <file>图片文件夹/管理者背景.jpeg</file>
+    <file>图片文件夹/管理者-退出.png</file>
+    <file>图片文件夹/管理者-撤销.png</file>
+    <file>图片文件夹/管理者-删除.png</file>
+    <file>图片文件夹/管理者-修改.png</file>
+    <file>图片文件夹/管理者-添加.png</file>
+  </qresource>
+  <qresource prefix="速算">
+    <file>图片文件夹/错误.png</file>
+    <file>图片文件夹/正确.png</file>
+    <file>图片文件夹/地狱.png</file>
+    <file>图片文件夹/简单.png</file>
+    <file>图片文件夹/困难.png</file>
+    <file>图片文件夹/普通.png</file>
+  </qresource>
+  <qresource prefix="背景">
+    <file>图片文件夹/化学背景.jpeg</file>
+    <file>图片文件夹/生物背景.jpeg</file>
+    <file>图片文件夹/壁纸005.jpeg</file>
+    <file>图片文件夹/壁纸006.jpeg</file>
+    <file>图片文件夹/003.jpg</file>
+    <file>图片文件夹/011.jpg</file>
+    <file>图片文件夹/壁纸 007.jpg</file>
+    <file>图片文件夹/壁纸 008.jpg</file>
+    <file>图片文件夹/壁纸 010.jpg</file>
+    <file>图片文件夹/004.jpeg</file>
+    <file>图片文件夹/001.jpeg</file>
+    <file>图片文件夹/002.jpeg</file>
+  </qresource>
+  <qresource prefix="小窗口图标">
+    <file>图片文件夹/物理退出登录.png</file>
+    <file>图片文件夹/物理界面上一页.png</file>
+    <file>图片文件夹/物理界面下一页.png</file>
+    <file>图片文件夹/信息.png</file>
+    <file>图片文件夹/挑战失败.png</file>
+    <file>图片文件夹/挑战失败背景.jpg</file>
+    <file>图片文件夹/星星 (1).png</file>
+    <file>图片文件夹/背单词总结页面背景图.webp</file>
+    <file>图片文件夹/成绩单.png</file>
+  </qresource>
+  <qresource prefix="小图标">
+    <file>图片文件夹/在线时长.png</file>
+  </qresource>
+  <qresource prefix="标志">
+    <file>图片文件夹/疑问.png</file>
+    <file>图片文件夹/开始.png</file>
+    <file>图片文件夹/下一题.png</file>
+    <file>图片文件夹/数学提交.png</file>
+    <file>图片文件夹/下一页.png</file>
+    <file>图片文件夹/主页 .png</file>
+    <file>图片文件夹/q1.png</file>
+    <file>图片文件夹/提交.png</file>
+    <file>图片文件夹/q2.png</file>
+    <file>图片文件夹/q3.png</file>
+    <file>图片文件夹/q4.png</file>
+    <file>图片文件夹/q5.png</file>
+    <file>图片文件夹/q6.png</file>
+    <file>图片文件夹/q7.png</file>
+    <file>图片文件夹/q8.png</file>
+    <file>图片文件夹/q9.png</file>
+    <file>图片文件夹/离开.png</file>
+    <file>图片文件夹/上一页.png</file>
+  </qresource>
+  <qresource prefix="数据图标">
+    <file>图片文件夹/记事本 .png</file>
+    <file>图片文件夹/化学数据.png</file>
+    <file>图片文件夹/生物数据.png</file>
+    <file>图片文件夹/数学数据.png</file>
+    <file>图片文件夹/物理数据.png</file>
+    <file>图片文件夹/英语数据.png</file>
+    <file>图片文件夹/语文数据.png</file>
+  </qresource>
+  <qresource prefix="子标">
+    <file>图片文件夹/答题模板.png</file>
+    <file>图片文件夹/首页.png</file>
+    <file>图片文件夹/考题.png</file>
+    <file>图片文件夹/错题案例.png</file>
+    <file>图片文件夹/单元总结.png</file>
+    <file>图片文件夹/公式.png</file>
+    <file>图片文件夹/化学方程式.png</file>
+    <file>图片文件夹/基础知识.png</file>
+    <file>图片文件夹/经典错题.png</file>
+    <file>图片文件夹/课本知识点.png</file>
+    <file>图片文件夹/生物数据.png</file>
+    <file>图片文件夹/背单词.png</file>
+    <file>图片文件夹/错题案例.png</file>
+    <file>图片文件夹/二级结论.png</file>
+    <file>图片文件夹/理解性默写.png</file>
+    <file>图片文件夹/满分作文.png</file>
+    <file>图片文件夹/满分作文英语.png</file>
+    <file>图片文件夹/速算.png</file>
+    <file>图片文件夹/语法.png</file>
+  </qresource>
+  <qresource prefix="六科">
+    <file>图片文件夹/语文.png</file>
+    <file>图片文件夹/数学.png</file>
+    <file>图片文件夹/物理.png</file>
+    <file>图片文件夹/化学.png</file>
+    <file>图片文件夹/生物.png</file>
+    <file>图片文件夹/英语.png</file>
+  </qresource>
+  <qresource prefix="日记本图标">
+    <file>图片文件夹/记事本打开文件.png</file>
+    <file>图片文件夹/记事本退出.png</file>
+    <file>图片文件夹/记事本用户登录.png</file>
+    <file>图片文件夹/记事本注册.png</file>
+    <file>图片文件夹/记事本修改.png</file>
+    <file>图片文件夹/退出记事本.png</file>
+    <file>图片文件夹/帮助.png</file>
+    <file>图片文件夹/记事本保存.png</file>
+    <file>图片文件夹/记事本取消操作.png</file>
+    <file>图片文件夹/新建日记.png</file>
+  </qresource>
+</RCC>
