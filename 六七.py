@@ -2609,9 +2609,9 @@ class Homepages(QMainWindow, Ui_Homepage):
                    '3.选择一行点击删除即可将该行数据删除。\n' \
                    '4.图片地址是该图片的绝对路径，可以不填写。'
         elif self.GLZ_page == 6:
-            pass
+            text = '正在更新中！'
         else:
-            pass
+            text = '正在更新中！'
         self.MESSAGE = Ui_KSFX_Message('多行通知',self.glz.GLZ_title.text(),text)
         self.MESSAGE.show()
 
