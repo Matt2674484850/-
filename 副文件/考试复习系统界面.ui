@@ -1,0 +1,4534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Homepage</class>
+ <widget class="QMainWindow" name="Homepage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>577</width>
+    <height>546</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>楷体</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>考试复习系统</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="img.qrc">
+    <normaloff>:/png/图片文件夹/首页图标.png</normaloff>:/png/图片文件夹/首页图标.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Homepage{border-image: url(:/背景/图片文件夹/壁纸 010.jpg);}
+
+
+
+
+
+</string>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="tian">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>430</y>
+      <width>32</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
+    </property>
+    <property name="text">
+     <string>天</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="LCD_dayremaining">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>330</y>
+      <width>37</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>120</red>
+          <green>120</green>
+          <blue>120</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Panel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="smallDecimalPoint">
+     <bool>true</bool>
+    </property>
+    <property name="digitCount">
+     <number>3</number>
+    </property>
+    <property name="segmentStyle">
+     <enum>QLCDNumber::Flat</enum>
+    </property>
+    <property name="value" stdset="0">
+     <double>365.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gaokao">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>30</y>
+      <width>32</width>
+      <height>288</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;距&lt;/p&gt;&lt;p&gt;离&lt;/p&gt;&lt;p&gt;高&lt;/p&gt;&lt;p&gt;考&lt;/p&gt;&lt;p&gt;还&lt;/p&gt;&lt;p&gt;有&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>511</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>511</width>
+      <height>449</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>511</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255，0);</string>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Triangular</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="elideMode">
+     <enum>Qt::ElideMiddle</enum>
+    </property>
+    <property name="usesScrollButtons">
+     <bool>true</bool>
+    </property>
+    <property name="documentMode">
+     <bool>true</bool>
+    </property>
+    <property name="tabsClosable">
+     <bool>false</bool>
+    </property>
+    <property name="movable">
+     <bool>false</bool>
+    </property>
+    <property name="tabBarAutoHide">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="shouye">
+     <attribute name="icon">
+      <iconset resource="img.qrc">
+       <normaloff>:/子标/图片文件夹/首页.png</normaloff>:/子标/图片文件夹/首页.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string>首页</string>
+     </attribute>
+     <widget class="QTreeWidget" name="Math">
+      <property name="geometry">
+       <rect>
+        <x>258</x>
+        <y>9</y>
+        <width>244</width>
+        <height>147</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <column>
+       <property name="text">
+        <string>数学</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/六科/图片文件夹/数学.png</normaloff>:/六科/图片文件夹/数学.png</iconset>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>速算</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/速算.png</normaloff>:/子标/图片文件夹/速算.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>错题案例</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/错题案例.png</normaloff>:/子标/图片文件夹/错题案例.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>二级结论</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/二级结论.png</normaloff>:/子标/图片文件夹/二级结论.png</iconset>
+       </property>
+      </item>
+     </widget>
+     <widget class="QTreeWidget" name="Chemistry">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>314</y>
+        <width>243</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <column>
+       <property name="text">
+        <string>化学</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/六科/图片文件夹/化学.png</normaloff>:/六科/图片文件夹/化学.png</iconset>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>基础知识</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/基础知识.png</normaloff>:/子标/图片文件夹/基础知识.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>化学方程式</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/化学方程式.png</normaloff>:/子标/图片文件夹/化学方程式.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>经典错题</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/错题案例.png</normaloff>:/子标/图片文件夹/错题案例.png</iconset>
+       </property>
+      </item>
+     </widget>
+     <widget class="QTreeWidget" name="Physics">
+      <property name="geometry">
+       <rect>
+        <x>258</x>
+        <y>162</y>
+        <width>244</width>
+        <height>146</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <column>
+       <property name="text">
+        <string>物理</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/六科/图片文件夹/物理.png</normaloff>:/六科/图片文件夹/物理.png</iconset>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>单元总结</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/单元总结.png</normaloff>:/子标/图片文件夹/单元总结.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>公式</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/公式.png</normaloff>:/子标/图片文件夹/公式.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>错题案例</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/错题案例.png</normaloff>:/子标/图片文件夹/错题案例.png</iconset>
+       </property>
+      </item>
+     </widget>
+     <widget class="QTreeWidget" name="Biology">
+      <property name="geometry">
+       <rect>
+        <x>258</x>
+        <y>314</y>
+        <width>244</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <column>
+       <property name="text">
+        <string>生物</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/六科/图片文件夹/生物.png</normaloff>:/六科/图片文件夹/生物.png</iconset>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>课本知识点</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/课本知识点.png</normaloff>:/子标/图片文件夹/课本知识点.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>经典错题</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/错题案例.png</normaloff>:/子标/图片文件夹/错题案例.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>考题</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>11</pointsize>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/考题.png</normaloff>:/子标/图片文件夹/考题.png</iconset>
+       </property>
+      </item>
+     </widget>
+     <widget class="QTreeWidget" name="Chinese">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>9</y>
+        <width>243</width>
+        <height>147</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="tabKeyNavigation">
+       <bool>false</bool>
+      </property>
+      <property name="defaultDropAction">
+       <enum>Qt::IgnoreAction</enum>
+      </property>
+      <property name="uniformRowHeights">
+       <bool>false</bool>
+      </property>
+      <property name="allColumnsShowFocus">
+       <bool>false</bool>
+      </property>
+      <attribute name="headerHighlightSections">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="headerShowSortIndicator" stdset="0">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>语文</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/六科/图片文件夹/语文.png</normaloff>:/六科/图片文件夹/语文.png</iconset>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>诗词理解性默写</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/理解性默写.png</normaloff>:/子标/图片文件夹/理解性默写.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>答题模板</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="background">
+        <brush brushstyle="NoBrush">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </property>
+       <property name="foreground">
+        <brush brushstyle="NoBrush">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/答题模板.png</normaloff>:/子标/图片文件夹/答题模板.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>满分作文</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/满分作文.png</normaloff>:/子标/图片文件夹/满分作文.png</iconset>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="matt">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>450</y>
+        <width>491</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="PlaceholderText">
+          <brush brushstyle="NoBrush">
+           <color alpha="128">
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="PlaceholderText">
+          <brush brushstyle="NoBrush">
+           <color alpha="128">
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="PlaceholderText">
+          <brush brushstyle="NoBrush">
+           <color alpha="128">
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>20</pointsize>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>业精于勤荒于嬉，行成于思毁于随</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="margin">
+       <number>1</number>
+      </property>
+     </widget>
+     <widget class="QTreeWidget" name="English">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>162</y>
+        <width>243</width>
+        <height>146</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <column>
+       <property name="text">
+        <string>英语</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/六科/图片文件夹/英语.png</normaloff>:/六科/图片文件夹/英语.png</iconset>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>背单词</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/背单词.png</normaloff>:/子标/图片文件夹/背单词.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>语法</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/语法.png</normaloff>:/子标/图片文件夹/语法.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>满分作文</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>13</pointsize>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/子标/图片文件夹/满分作文英语.png</normaloff>:/子标/图片文件夹/满分作文英语.png</iconset>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="beidanci">
+     <attribute name="icon">
+      <iconset resource="img.qrc">
+       <normaloff>:/子标/图片文件夹/背单词.png</normaloff>:/子标/图片文件夹/背单词.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string>背单词</string>
+     </attribute>
+     <attribute name="toolTip">
+      <string>背单词</string>
+     </attribute>
+     <widget class="QLineEdit" name="yingyuyihang">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>71</y>
+        <width>133</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>一行单词</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="yihangdanci">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>65</y>
+        <width>270</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>一行单词</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="xuanzedanyuan">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>160</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>11</pointsize>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>请选择需要检测的单元</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="EBcomboBox">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>10</y>
+        <width>131</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:10px</string>
+      </property>
+      <property name="currentText">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="EBdangqian_zuoda">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>320</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>当前作答情况：</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="erhangdanci">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>130</y>
+        <width>270</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>二行单词</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="yingyuerhang">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>132</y>
+        <width>133</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>二行单词</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="sanhangdanci">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>193</y>
+        <width>270</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>三行单词</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="yingyusanhang">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>193</y>
+        <width>133</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>三行单词</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="sihangdanci">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>251</y>
+        <width>270</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>四行单词</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="yingyusihang">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>254</y>
+        <width>133</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>四行单词</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="wuhangdanci">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>313</y>
+        <width>270</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>五行单词</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="yingyuwuhang">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>315</y>
+        <width>133</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>五行单词</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="liuhangdanci">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>374</y>
+        <width>270</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>六行单词</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="yingyuliuhang">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>376</y>
+        <width>133</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>六行单词</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="EBtijiao">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>437</y>
+        <width>75</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>Alt+Enter</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{color: rgb(255, 255, 127)}
+QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 0, 0);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>提交</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/标志/图片文件夹/提交.png</normaloff>:/标志/图片文件夹/提交.png</iconset>
+      </property>
+      <property name="shortcut">
+       <string>Alt+Return</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="shangyiye">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>437</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>Alt+左</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{color: rgb(255, 255, 127)}
+QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 0, 0);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>上一页</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/标志/图片文件夹/上一页.png</normaloff>:/标志/图片文件夹/上一页.png</iconset>
+      </property>
+      <property name="shortcut">
+       <string>Alt+Left</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="xiayiye">
+      <property name="geometry">
+       <rect>
+        <x>404</x>
+        <y>437</y>
+        <width>101</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>Alt+右</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{color: rgb(255, 255, 127)}
+QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 0, 0);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>下一页</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/标志/图片文件夹/下一页.png</normaloff>:/标志/图片文件夹/下一页.png</iconset>
+      </property>
+      <property name="shortcut">
+       <string>Alt+Right</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="shicimoxie">
+     <attribute name="icon">
+      <iconset resource="img.qrc">
+       <normaloff>:/子标/图片文件夹/理解性默写.png</normaloff>:/子标/图片文件夹/理解性默写.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string>诗词理解性默写</string>
+     </attribute>
+     <attribute name="toolTip">
+      <string>诗词理解性默写</string>
+     </attribute>
+     <widget class="QLabel" name="YW_mx_tm1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>60</y>
+        <width>511</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;默写第一行题目&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="YW_mx_input1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>110</y>
+        <width>511</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string>默写第一行输入框</string>
+      </property>
+      <property name="maxLength">
+       <number>32767</number>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <property name="placeholderText">
+       <string/>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="YW_mx_tm2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>160</y>
+        <width>511</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;默写第二行题目&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="YW_mx_tm3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>260</y>
+        <width>511</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;默写第三行题目&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="YW_mx_tm4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>360</y>
+        <width>511</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;默写第四行题目&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="YW_mx_input2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>210</y>
+        <width>511</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string>默写第二行输入框</string>
+      </property>
+      <property name="maxLength">
+       <number>32767</number>
+      </property>
+      <property name="placeholderText">
+       <string/>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="YW_mx_input3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>310</y>
+        <width>511</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string>默写第三行输入框</string>
+      </property>
+      <property name="maxLength">
+       <number>32767</number>
+      </property>
+      <property name="placeholderText">
+       <string/>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="YW_mx_input4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>410</y>
+        <width>511</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string>默写第四行输入框</string>
+      </property>
+      <property name="maxLength">
+       <number>32767</number>
+      </property>
+      <property name="placeholderText">
+       <string/>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="YW_mxcomboBox">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>10</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:10px</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="YW_mxlable">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>10</y>
+        <width>411</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>请选择默写诗词</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="YW_mxyiwen_lable">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>460</y>
+        <width>75</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 255, 0);}
+</string>
+      </property>
+      <property name="text">
+       <string>疑问</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/标志/图片文件夹/疑问.png</normaloff>:/标志/图片文件夹/疑问.png</iconset>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="YW_mxshangyiye_lable">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>460</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>Alt+左</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 255, 0);}
+</string>
+      </property>
+      <property name="text">
+       <string>上一页</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/标志/图片文件夹/上一页.png</normaloff>:/标志/图片文件夹/上一页.png</iconset>
+      </property>
+      <property name="shortcut">
+       <string>Alt+Left</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="YW_mxxiayiye_lable">
+      <property name="geometry">
+       <rect>
+        <x>394</x>
+        <y>460</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>Alt+右</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 255, 0);}
+</string>
+      </property>
+      <property name="text">
+       <string>下一页</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/标志/图片文件夹/下一页.png</normaloff>:/标志/图片文件夹/下一页.png</iconset>
+      </property>
+      <property name="shortcut">
+       <string>Alt+Right</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="YW_mxtijiao_lable">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>460</y>
+        <width>75</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>Alt+Enter</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 255, 0);}
+</string>
+      </property>
+      <property name="text">
+       <string>提交</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/标志/图片文件夹/提交.png</normaloff>:/标志/图片文件夹/提交.png</iconset>
+      </property>
+      <property name="shortcut">
+       <string>Alt+Return</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="susuan">
+     <attribute name="icon">
+      <iconset resource="img.qrc">
+       <normaloff>:/子标/图片文件夹/速算.png</normaloff>:/子标/图片文件夹/速算.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string>速算</string>
+     </attribute>
+     <attribute name="toolTip">
+      <string>速算</string>
+     </attribute>
+     <widget class="QPushButton" name="SSicon">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>71</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/子标/图片文件夹/速算.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SStitle">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>0</y>
+        <width>151</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>速算</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="buddy">
+       <cstring></cstring>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="SSLCDshengyu">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>0</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>0</number>
+      </property>
+      <property name="midLineWidth">
+       <number>0</number>
+      </property>
+      <property name="smallDecimalPoint">
+       <bool>false</bool>
+      </property>
+      <property name="digitCount">
+       <number>2</number>
+      </property>
+      <property name="value" stdset="0">
+       <double>15.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SSshengyushijian">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>0</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>剩余时间：</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="SStimeprogress">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>60</y>
+        <width>201</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);
+</string>
+      </property>
+      <property name="maximum">
+       <number>15</number>
+      </property>
+      <property name="value">
+       <number>15</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SSS">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>0</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>秒</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SSzhuye">
+      <property name="geometry">
+       <rect>
+        <x>14</x>
+        <y>450</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{color: rgb(255, 255, 0);}
+QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 0, 0);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>疑问</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/标志/图片文件夹/主页 .png</normaloff>:/标志/图片文件夹/主页 .png</iconset>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SStijiao">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>450</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>Alt+Enter</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{color: rgb(255, 255, 0);}
+QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 0, 0);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>提交</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/标志/图片文件夹/数学提交.png</normaloff>:/标志/图片文件夹/数学提交.png</iconset>
+      </property>
+      <property name="shortcut">
+       <string>Alt+Return</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SSxiayiti">
+      <property name="geometry">
+       <rect>
+        <x>404</x>
+        <y>450</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>Alt + 右</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{color: rgb(255, 255, 0);}
+QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 0, 0);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>下一题</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/标志/图片文件夹/下一题.png</normaloff>:/标志/图片文件夹/下一题.png</iconset>
+      </property>
+      <property name="shortcut">
+       <string>Alt+Right</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SSkaishi">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>450</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{color: rgb(255, 255, 0);}
+QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 0, 0);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>开始</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/标志/图片文件夹/开始.png</normaloff>:/标志/图片文件夹/开始.png</iconset>
+      </property>
+      <property name="shortcut">
+       <string>Space</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="SSlineEdit">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>310</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="whatsThis">
+       <string/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="maxLength">
+       <number>32767</number>
+      </property>
+      <property name="cursorPosition">
+       <number>0</number>
+      </property>
+      <property name="placeholderText">
+       <string>答案输入框</string>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SStishi">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>300</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>请输入你的答案</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="SScomboBox">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>120</y>
+        <width>131</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:10px</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>6</number>
+      </property>
+      <item>
+       <property name="text">
+        <string>请选择挑战难度</string>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/png/图片文件夹/5.png</normaloff>:/png/图片文件夹/5.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>简单</string>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/速算/图片文件夹/简单.png</normaloff>:/速算/图片文件夹/简单.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>普通</string>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/速算/图片文件夹/普通.png</normaloff>:/速算/图片文件夹/普通.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>困难</string>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/速算/图片文件夹/困难.png</normaloff>:/速算/图片文件夹/困难.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>地狱</string>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/速算/图片文件夹/地狱.png</normaloff>:/速算/图片文件夹/地狱.png</iconset>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLCDNumber" name="lcdNumber1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>180</y>
+        <width>111</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="midLineWidth">
+       <number>-1</number>
+      </property>
+      <property name="smallDecimalPoint">
+       <bool>false</bool>
+      </property>
+      <property name="digitCount">
+       <number>2</number>
+      </property>
+      <property name="intValue" stdset="0">
+       <number>20</number>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdNumber2">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>180</y>
+        <width>111</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="midLineWidth">
+       <number>-1</number>
+      </property>
+      <property name="smallDecimalPoint">
+       <bool>false</bool>
+      </property>
+      <property name="digitCount">
+       <number>2</number>
+      </property>
+      <property name="intValue" stdset="0">
+       <number>21</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SSlable_cheng">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>180</y>
+        <width>71</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>48</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>X</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SSwanchengshu">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>已完成 0 题</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SSlable">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>150</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>共 10 题</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="SSpicture">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>360</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/速算/图片文件夹/正确.png);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SShuida">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>370</y>
+        <width>251</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(85, 255, 127);</string>
+      </property>
+      <property name="text">
+       <string>回答正确！</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="danyuanzongjie">
+     <attribute name="icon">
+      <iconset resource="img.qrc">
+       <normaloff>:/子标/图片文件夹/单元总结.png</normaloff>:/子标/图片文件夹/单元总结.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string>单元总结</string>
+     </attribute>
+     <attribute name="toolTip">
+      <string>单元总结</string>
+     </attribute>
+     <widget class="QToolBox" name="WL_danyuanzongjie_lefttoolbox">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>110</y>
+        <width>251</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255,0);
+color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="tabSpacing">
+       <number>10</number>
+      </property>
+      <widget class="QWidget" name="bixiu1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>251</width>
+         <height>167</height>
+        </rect>
+       </property>
+       <attribute name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/标志/图片文件夹/q1.png</normaloff>:/标志/图片文件夹/q1.png</iconset>
+       </attribute>
+       <attribute name="label">
+        <string>必修一</string>
+       </attribute>
+       <widget class="QListWidget" name="WL_danyuanzongjie_bixiu1_listWidget0">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>251</width>
+          <height>192</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="biiu2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <attribute name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/标志/图片文件夹/q2.png</normaloff>:/标志/图片文件夹/q2.png</iconset>
+       </attribute>
+       <attribute name="label">
+        <string>必修二</string>
+       </attribute>
+       <widget class="QListWidget" name="WL_danyuanzongjie_bixiu2_listWidget0">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>251</width>
+          <height>192</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="bixiu3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <attribute name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/标志/图片文件夹/q3.png</normaloff>:/标志/图片文件夹/q3.png</iconset>
+       </attribute>
+       <attribute name="label">
+        <string>必修三</string>
+       </attribute>
+       <widget class="QListWidget" name="WL_danyuanzongjie_bixiu3_listWidget0">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>251</width>
+          <height>192</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="xbixiu1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <attribute name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/标志/图片文件夹/q4.png</normaloff>:/标志/图片文件夹/q4.png</iconset>
+       </attribute>
+       <attribute name="label">
+        <string>选择性必修一</string>
+       </attribute>
+       <widget class="QListWidget" name="WL_danyuanzongjie_xbixiu1_listWidget0">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>251</width>
+          <height>192</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="xbixiu2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <attribute name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/标志/图片文件夹/q5.png</normaloff>:/标志/图片文件夹/q5.png</iconset>
+       </attribute>
+       <attribute name="label">
+        <string>选择性必修二</string>
+       </attribute>
+       <widget class="QListWidget" name="WL_danyuanzongjie_xbixiu2_listWidget0">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>251</width>
+          <height>192</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="xbixiu3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <attribute name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/标志/图片文件夹/q6.png</normaloff>:/标志/图片文件夹/q6.png</iconset>
+       </attribute>
+       <attribute name="label">
+        <string>选择性必修三</string>
+       </attribute>
+       <widget class="QListWidget" name="WL_danyuanzongjie_xbixiu3_listWidget0">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>251</width>
+          <height>192</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="WL_danyuanzongjie_title">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>0</y>
+        <width>331</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 127);</string>
+      </property>
+      <property name="text">
+       <string>单元总结</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="WL_danyuanzongjie_lefttiltle">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>70</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>单元知识点</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="WL_danyuanzongjie_righttiltle">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>70</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>单元例题</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="WL_danyuanzongjie_picture1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/子标/图片文件夹/单元总结.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QToolBox" name="WL_danyuanzongjie_righttoolbox">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>110</y>
+        <width>251</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255,0);
+color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="tabSpacing">
+       <number>10</number>
+      </property>
+      <widget class="QWidget" name="bixiu1_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>251</width>
+         <height>167</height>
+        </rect>
+       </property>
+       <attribute name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/标志/图片文件夹/q1.png</normaloff>:/标志/图片文件夹/q1.png</iconset>
+       </attribute>
+       <attribute name="label">
+        <string>必修一</string>
+       </attribute>
+       <widget class="QListWidget" name="WL_danyuanzongjie_bixiu1_listWidget1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>251</width>
+          <height>192</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="biiu2_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <attribute name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/标志/图片文件夹/q2.png</normaloff>:/标志/图片文件夹/q2.png</iconset>
+       </attribute>
+       <attribute name="label">
+        <string>必修二</string>
+       </attribute>
+       <widget class="QListWidget" name="WL_danyuanzongjie_bixiu2_listWidget1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>251</width>
+          <height>192</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="bixiu3_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <attribute name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/标志/图片文件夹/q3.png</normaloff>:/标志/图片文件夹/q3.png</iconset>
+       </attribute>
+       <attribute name="label">
+        <string>必修三</string>
+       </attribute>
+       <widget class="QListWidget" name="WL_danyuanzongjie_bixiu3_listWidget1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>251</width>
+          <height>192</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="xbixiu1_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <attribute name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/标志/图片文件夹/q4.png</normaloff>:/标志/图片文件夹/q4.png</iconset>
+       </attribute>
+       <attribute name="label">
+        <string>选择性必修一</string>
+       </attribute>
+       <widget class="QListWidget" name="WL_danyuanzongjie_xbixiu1_listWidget1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>251</width>
+          <height>192</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="xbixiu2_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <attribute name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/标志/图片文件夹/q5.png</normaloff>:/标志/图片文件夹/q5.png</iconset>
+       </attribute>
+       <attribute name="label">
+        <string>选择性必修二</string>
+       </attribute>
+       <widget class="QListWidget" name="WL_danyuanzongjie_xbixiu2_listWidget1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>251</width>
+          <height>192</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="xbixiu3_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <attribute name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/标志/图片文件夹/q6.png</normaloff>:/标志/图片文件夹/q6.png</iconset>
+       </attribute>
+       <attribute name="label">
+        <string>选择性必修三</string>
+       </attribute>
+       <widget class="QListWidget" name="WL_danyuanzongjie_xbixiu3_listWidget1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>251</width>
+          <height>192</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="WL_danyuanzongjie_picture2">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>0</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/标志/图片文件夹/疑问.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="jichuzhishi">
+     <attribute name="icon">
+      <iconset resource="img.qrc">
+       <normaloff>:/子标/图片文件夹/基础知识.png</normaloff>:/子标/图片文件夹/基础知识.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string>基础知识</string>
+     </attribute>
+     <attribute name="toolTip">
+      <string>基础知识</string>
+     </attribute>
+     <widget class="QGroupBox" name="HXJC_groupBox">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>70</y>
+        <width>511</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="title">
+       <string>暂无题目</string>
+      </property>
+      <widget class="QPlainTextEdit" name="HXJC_questionText">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>511</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>文字过长可上下滑动</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>false</bool>
+       </property>
+       <property name="documentTitle">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="plainText">
+        <string>上课讲得好福克斯的话开发商的客服经理说的就发生了对方萨达分离式的了反馈萨达梁丰圣诞快乐烦死了大家分类考试的尽量克服熟练度空间发了肯定是肺几点睡了放假了深刻的风景三大类肺撒旦教老师的发了按时加快汇顶科技哈萨克大豪科技爱啥啥看到萨达哈市按实际贷款和大数据活动</string>
+       </property>
+       <property name="backgroundVisible">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="HXJC_PB_Atext">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>100</y>
+         <width>441</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>文字过长可上下滑动</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>false</bool>
+       </property>
+       <property name="documentTitle">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="plainText">
+        <string>第一题卡萨计划的撒娇客户打开就爱上的安徽省抠脚大汉卡莎的大手机号大街上拉肯德基拉开打死了肯德基ask来得及阿里山大是第三轮</string>
+       </property>
+       <property name="backgroundVisible">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="HXJC_PB_A">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Andalus</family>
+         <pointsize>22</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>点击即代表确认</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 0, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>A</string>
+       </property>
+       <property name="shortcut">
+        <string>A</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="HXJC_PB_B">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>150</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Andalus</family>
+         <pointsize>22</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>点击即代表确认</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 0, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>B</string>
+       </property>
+       <property name="shortcut">
+        <string>B</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="HXJC_PB_C">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Andalus</family>
+         <pointsize>22</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>点击即代表确认</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 0, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>C</string>
+       </property>
+       <property name="shortcut">
+        <string>C</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="HXJC_PB_D">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Andalus</family>
+         <pointsize>22</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>点击即代表确认</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 0, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>D</string>
+       </property>
+       <property name="shortcut">
+        <string>D</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="HXJC_PB_Btext">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>150</y>
+         <width>441</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>文字过长可上下滑动</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>false</bool>
+       </property>
+       <property name="documentTitle">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="plainText">
+        <string>第一题卡萨计划的撒娇客户打开就爱上的安徽省抠脚大汉卡莎的大手机号大街上拉肯德基拉开打死了肯德基ask来得及阿里山大是第三轮</string>
+       </property>
+       <property name="backgroundVisible">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="HXJC_PB_Ctext">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>200</y>
+         <width>441</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>文字过长可上下滑动</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>false</bool>
+       </property>
+       <property name="documentTitle">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="plainText">
+        <string>第一题卡萨计划的撒娇客户打开就爱上的安徽省抠脚大汉卡莎的大手机号大街上拉肯德基拉开打死了肯德基ask来得及阿里山大是第三轮</string>
+       </property>
+       <property name="backgroundVisible">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="HXJC_PB_Dtext">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>250</y>
+         <width>441</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>文字过长可上下滑动</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>false</bool>
+       </property>
+       <property name="documentTitle">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="plainText">
+        <string>第一题卡萨计划的撒娇客户打开就爱上的安徽省抠脚大汉卡莎的大手机号大街上拉肯德基拉开打死了肯德基ask来得及阿里山大是第三轮</string>
+       </property>
+       <property name="backgroundVisible">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="HXJC_picture">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/化学/图片文件夹/化学基础知识.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="HXJC_title">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>0</y>
+        <width>261</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>化学-基础知识问答</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="HXJC_jinduText">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>10</y>
+        <width>161</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>您当前的进度：</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="HXJC_yiwen">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>400</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>Ctrl+Q</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(0, 255, 127);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>疑问</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/化学/图片文件夹/化学基础知识帮助.png</normaloff>:/化学/图片文件夹/化学基础知识帮助.png</iconset>
+      </property>
+      <property name="shortcut">
+       <string>Ctrl+Q</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>false</bool>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>300</number>
+      </property>
+      <property name="autoRepeatInterval">
+       <number>100</number>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="HXJC_action">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>400</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>Ctrl+Enter</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(0, 255, 127);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>开始问答</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/化学/图片文件夹/化学基础知识_准备.png</normaloff>:/化学/图片文件夹/化学基础知识_准备.png</iconset>
+      </property>
+      <property name="shortcut">
+       <string>Ctrl+Return</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>false</bool>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>300</number>
+      </property>
+      <property name="autoRepeatInterval">
+       <number>100</number>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="HXJC_spinBox">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>20</y>
+        <width>141</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(85, 255, 255);
+font: 12pt &quot;楷体&quot;;
+background-color: rgb(219, 255, 252);
+
+</string>
+      </property>
+      <property name="frame">
+       <bool>false</bool>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="showGroupSeparator" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="maximum">
+       <number>15</number>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="HXJC_progressBar">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>32</y>
+        <width>161</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#HXJC_progressBar{
+	background-color: rgb(241, 255, 219);
+	color:red;
+	border-radius:10px}
+#HXJC_progressBar:chunk{
+	background-color: rgb(201, 255, 165);
+	border-radius:10px
+}</string>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="HXJC_evaluate">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>380</y>
+        <width>391</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>恭喜，您的回答正确！</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="HXJC_RightanswerText">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>410</y>
+        <width>381</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0,255, 0);</string>
+      </property>
+      <property name="text">
+       <string>正确答案是：A</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="HXJC_nextButton">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>450</y>
+        <width>271</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(0, 255, 127);
+}
+QPushButton{color: rgb(255, 0, 0);}</string>
+      </property>
+      <property name="text">
+       <string>下一题</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/化学/图片文件夹/化学基础_下一题.png</normaloff>:/化学/图片文件夹/化学基础_下一题.png</iconset>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="kebenguina">
+     <attribute name="icon">
+      <iconset resource="img.qrc">
+       <normaloff>:/子标/图片文件夹/课本知识点.png</normaloff>:/子标/图片文件夹/课本知识点.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string>课本归纳</string>
+     </attribute>
+     <attribute name="toolTip">
+      <string>课本知识点归纳</string>
+     </attribute>
+     <widget class="QPushButton" name="JPC_apple1">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>120</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>黑体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/生物/图片文件夹/生物_苹果.png);</string>
+      </property>
+      <property name="text">
+       <string>生物</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="JPC_question">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>420</y>
+        <width>91</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{color: rgb(255, 170, 0);}
+
+QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 0, 0);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>疑问</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/生物/图片文件夹/生物_疑问 .png</normaloff>:/生物/图片文件夹/生物_疑问 .png</iconset>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="JPC_picture">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/生物/图片文件夹/生物_绿叶.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="JPC_Title">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>10</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>生物 -- 捡苹果</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="JPC_comboBox">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>13</y>
+        <width>121</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 255, 0);
+background-color: rgb(255, 255, 255);
+font: 10pt &quot;楷体&quot;;
+border-radius:10px</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>请选择范围</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QDoubleSpinBox" name="JPC_doubleSpinBox">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>10</y>
+        <width>111</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="prefix">
+       <string>下降速度：</string>
+      </property>
+      <property name="suffix">
+       <string/>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="minimum">
+       <double>0.010000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>0.380000000000000</double>
+      </property>
+      <property name="singleStep">
+       <double>0.010000000000000</double>
+      </property>
+      <property name="value">
+       <double>0.100000000000000</double>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="JPC_apple2">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>120</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>黑体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/生物/图片文件夹/生物_苹果.png);</string>
+      </property>
+      <property name="text">
+       <string>生物</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="JPC_apple3">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>440</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>黑体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/生物/图片文件夹/生物_苹果.png);</string>
+      </property>
+      <property name="text">
+       <string>生物</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="JPC_apple4">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>120</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>黑体</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/生物/图片文件夹/生物_苹果.png);</string>
+      </property>
+      <property name="text">
+       <string>生物</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="JPC_groupBox">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>60</y>
+        <width>511</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="title">
+       <string>您选择的范围</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <widget class="QPlainTextEdit" name="JPC_plainTextEdit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>510</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255,0);
+color: rgb(255, 255, 255);
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="plainText">
+        <string>第一题：结婚登记卡卡仕达啥接口的话考试的健康啥快递挥洒等会撒</string>
+       </property>
+       <property name="placeholderText">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>470</y>
+        <width>521</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="JPC_action">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>420</y>
+        <width>91</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{color: rgb(0, 170, 255);}
+QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 0, 0);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>开始</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/生物/图片文件夹/生物_点击触发.png</normaloff>:/生物/图片文件夹/生物_点击触发.png</iconset>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="JPC_evaluate">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>360</y>
+        <width>441</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:pressed{padding-top:5px;padding-left:5px;border-radius:10px;color: rgb(255, 0, 0);
+}</string>
+      </property>
+      <property name="text">
+       <string>恭喜您，回答正确！（点击为您切换下一题）</string>
+      </property>
+      <property name="icon">
+       <iconset resource="img.qrc">
+        <normaloff>:/生物/图片文件夹/生物_评价.png</normaloff>:/生物/图片文件夹/生物_评价.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>577</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="gong_neng">
+    <property name="title">
+     <string>功能</string>
+    </property>
+    <addaction name="actionguanlizhe"/>
+   </widget>
+   <widget class="QMenu" name="guanyu">
+    <property name="title">
+     <string>关于</string>
+    </property>
+    <addaction name="actionauthor"/>
+    <addaction name="separator"/>
+    <addaction name="actionuse"/>
+   </widget>
+   <widget class="QMenu" name="shujv_xinxi">
+    <property name="title">
+     <string>数据信息</string>
+    </property>
+    <widget class="QMenu" name="menu">
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="tearOffEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="title">
+      <string>更多</string>
+     </property>
+     <property name="icon">
+      <iconset resource="img.qrc">
+       <normaloff>:/数据图标/图片文件夹/更多.png</normaloff>:/数据图标/图片文件夹/更多.png</iconset>
+     </property>
+     <addaction name="actionkaisuo"/>
+     <addaction name="separator"/>
+     <addaction name="actionshuerteDB"/>
+    </widget>
+    <addaction name="actionyuwen"/>
+    <addaction name="separator"/>
+    <addaction name="actionshuxue"/>
+    <addaction name="separator"/>
+    <addaction name="actionyingyu"/>
+    <addaction name="separator"/>
+    <addaction name="actionwuli"/>
+    <addaction name="separator"/>
+    <addaction name="actionhuaxue"/>
+    <addaction name="separator"/>
+    <addaction name="actionshengwu"/>
+    <addaction name="separator"/>
+    <addaction name="menu"/>
+   </widget>
+   <widget class="QMenu" name="ji_shiben">
+    <property name="font">
+     <font>
+      <family>楷体</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>记事本</string>
+    </property>
+    <addaction name="actionjishiben"/>
+   </widget>
+   <widget class="QMenu" name="zaixian_shichang">
+    <property name="title">
+     <string>在线时长</string>
+    </property>
+    <addaction name="actionshijian"/>
+   </widget>
+   <widget class="QMenu" name="gengduo">
+    <property name="title">
+     <string>更多</string>
+    </property>
+    <addaction name="actionks"/>
+    <addaction name="separator"/>
+    <addaction name="actionshuerte"/>
+   </widget>
+   <addaction name="gong_neng"/>
+   <addaction name="shujv_xinxi"/>
+   <addaction name="ji_shiben"/>
+   <addaction name="zaixian_shichang"/>
+   <addaction name="gengduo"/>
+   <addaction name="guanyu"/>
+  </widget>
+  <action name="actionguanlizhe">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/png/图片文件夹/管理者图标.png</normaloff>:/png/图片文件夹/管理者图标.png</iconset>
+   </property>
+   <property name="text">
+    <string>管理者模式</string>
+   </property>
+   <property name="toolTip">
+    <string>进入管理者模式（Ctrl+G）</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="actionauthor">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/png/图片文件夹/作者图标.png</normaloff>:/png/图片文件夹/作者图标.png</iconset>
+   </property>
+   <property name="text">
+    <string>作者</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionuse">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/png/图片文件夹/5.png</normaloff>:/png/图片文件夹/5.png</iconset>
+   </property>
+   <property name="text">
+    <string>使用说明</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionyuwen">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/数据图标/图片文件夹/语文数据.png</normaloff>:/数据图标/图片文件夹/语文数据.png</iconset>
+   </property>
+   <property name="text">
+    <string>语文数据</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionshuxue">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/数据图标/图片文件夹/数学数据.png</normaloff>:/数据图标/图片文件夹/数学数据.png</iconset>
+   </property>
+   <property name="text">
+    <string>数学数据</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionyingyu">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/数据图标/图片文件夹/英语数据.png</normaloff>:/数据图标/图片文件夹/英语数据.png</iconset>
+   </property>
+   <property name="text">
+    <string>英语数据</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionwuli">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/数据图标/图片文件夹/物理数据.png</normaloff>:/数据图标/图片文件夹/物理数据.png</iconset>
+   </property>
+   <property name="text">
+    <string>物理数据</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionhuaxue">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/数据图标/图片文件夹/化学数据.png</normaloff>:/数据图标/图片文件夹/化学数据.png</iconset>
+   </property>
+   <property name="text">
+    <string>化学数据</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionshengwu">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/数据图标/图片文件夹/生物数据.png</normaloff>:/数据图标/图片文件夹/生物数据.png</iconset>
+   </property>
+   <property name="text">
+    <string>生物数据</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionjishiben">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/数据图标/图片文件夹/记事本 .png</normaloff>:/数据图标/图片文件夹/记事本 .png</iconset>
+   </property>
+   <property name="text">
+    <string>进入记事本</string>
+   </property>
+   <property name="toolTip">
+    <string>进入记事本(Ctrl+J)</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+J</string>
+   </property>
+  </action>
+  <action name="actionshijian">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/小图标/图片文件夹/在线时长.png</normaloff>:/小图标/图片文件夹/在线时长.png</iconset>
+   </property>
+   <property name="text">
+    <string>在线时长</string>
+   </property>
+   <property name="toolTip">
+    <string>查看在线时长(Ctrl+T)</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+  <action name="actionks">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/开锁/图片文件夹/开锁.png</normaloff>:/开锁/图片文件夹/开锁.png</iconset>
+   </property>
+   <property name="text">
+    <string>开锁</string>
+   </property>
+   <property name="toolTip">
+    <string>开锁游戏（Ctrl+K）</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+K</string>
+   </property>
+  </action>
+  <action name="actionkaisuo">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/开锁/图片文件夹/开锁.png</normaloff>:/开锁/图片文件夹/开锁.png</iconset>
+   </property>
+   <property name="text">
+    <string>开锁数据</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionshuerteDB">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/舒尔特训练/图片文件夹/舒尔特训练.png</normaloff>:/舒尔特训练/图片文件夹/舒尔特训练.png</iconset>
+   </property>
+   <property name="text">
+    <string>舒尔特数据</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionshuerte">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/舒尔特训练/图片文件夹/舒尔特训练.png</normaloff>:/舒尔特训练/图片文件夹/舒尔特训练.png</iconset>
+   </property>
+   <property name="text">
+    <string>舒尔特训练</string>
+   </property>
+   <property name="toolTip">
+    <string>舒尔特训练（Ctrl+S）</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>
